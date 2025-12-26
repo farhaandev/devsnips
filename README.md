@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DevSnips
 
-## Getting Started
+DevSnips is a small collection of fast, ad‑free developer utilities – focused on everyday tasks around JSON, regex and JWT.
 
-First, run the development server:
+> Built with Next.js, TypeScript and Tailwind CSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### JSON Snip – JSON Formatter & TS Types
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Paste JSON and get clean, pretty‑printed output.
+- Basic TypeScript interface generation from JSON structure.
+- One‑click copy for formatted JSON and TS types.
+- Download `formatted.json` file.
+- Dark, focused editor UI inspired by code tools.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Regex Snip – Regex Tester
 
-## Learn More
+- Test JavaScript‑style regular expressions with flags.
+- Paste multi‑line text; matching lines are listed separately.
+- One‑click copy of all matching lines.
+- Minimal, distraction‑free regex playground.
 
-To learn more about Next.js, take a look at the following resources:
+### JWT Snip – JWT Decoder
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Decode JWT header and payload in your browser.
+- Signature is shown separately (no verification performed).
+- One‑click copy for header and payload JSON.
+- Clear warning to only use non‑secret / dev tokens.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧱 Tech Stack
 
-## Deploy on Vercel
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS + shadcn/ui
+- lucide‑react icons
+- sonner for toasts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔗 Live
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- App: https://devsnips.com
+- JSON Snip: https://devsnips.com/json
+- Regex Snip: https://devsnips.com/regex
+- JWT Snip: https://devsnips.com/jwt
+
+## 🚧 Roadmap
+
+Planned next:
+
+- Smarter TypeScript generator for nested objects & arrays.
+- JSON minify + JSON ⇄ YAML / CSV helpers.
+- Regex presets (email, URL, hex color, username).
+- JWT claim helpers (human readable `exp` / `iat`).
+
+## 🤝 Contributing
+
+Right now this is a small personal project.  
+Bug reports, ideas and feedback are welcome via issues or X: [@farhaanmalik](https://x.com/0xfarhaanmalik).
+
+## 📄 License
+
+MIT
