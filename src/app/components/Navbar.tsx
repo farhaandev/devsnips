@@ -19,15 +19,14 @@ export function Navbar() {
     <>
       {/* TOP NAV – md+ screens */}
       <header className="sticky top-0 z-40 border-b border-slate-800/80 bg-slate-950/80 backdrop-blur">
-        <nav className="max-w-7xl mx-auto flex items-center md:justify-between justify-center px-4 py-3">
+        <nav className="max-w-7xl mx-auto flex items-center md:justify-between justify-center px-4 py-4">
           <Link href="/" className="flex items-center gap-2">
-            <span className="h-6 w-6 rounded-lg bg-linear-to-br from-emerald-400/70 via-sky-400/70 to-purple-500/70" />
             <span className="ms:text-sm text-lg font-semibold tracking-tight text-slate-100">
               DevSnips
             </span>
           </Link>
 
-          <div className="hidden md:flex items-center gap-3 text-xs">
+          <div className="hidden md:flex items-center gap-3 text-sm">
             {links.map(({ href, label }) => {
               const active = pathname === href
               return (
@@ -35,7 +34,7 @@ export function Navbar() {
                   key={href}
                   href={href}
                   className={cn(
-                    'px-3 py-1.5 rounded-full transition-colors',
+                    'px-3 py-1.5 rounded-md transition-colors',
                     active
                       ? 'text-emerald-500 font-medium'
                       : 'text-slate-300 hover:text-emerald-300 hover:bg-slate-900/80'
@@ -59,7 +58,7 @@ export function Navbar() {
                 key={href}
                 href={href}
                 className={cn(
-                  'flex flex-col items-center justify-center gap-0.5 px-3 py-1 rounded-2xl text-[10px] transition-colors',
+                  'flex flex-col items-center justify-center gap-0.5 px-3 py-1 rounded-xl text-[10px] transition-colors',
                   active
                     ? 'text-emerald-300 bg-slate-900'
                     : 'text-slate-400 hover:text-emerald-300'

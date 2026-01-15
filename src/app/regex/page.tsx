@@ -50,20 +50,10 @@ export default function RegexSnip() {
 
   return (
     <div className="relative min-h-screen bg-linear-to-b from-slate-950 via-slate-900 to-slate-950 text-slate-50 py-12">
-      <div className="pointer-events-none absolute inset-0">
-        <div className="mx-auto h-72 w-72 rounded-full bg-sky-500/15 blur-3xl opacity-70 mt-10" />
-      </div>
-
+     
       <div className="relative container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-10">
-          <div className="inline-flex items-center gap-2 bg-slate-900/70 border border-slate-800 px-4 py-1.5 rounded-full mb-5 backdrop-blur">
-            <span className="h-2 w-2 rounded-full bg-sky-400 animate-pulse" />
-            <span className="text-xs font-medium text-slate-300">
-              DevSnips · Regex Snip
-            </span>
-          </div>
-
-          <h1 className="text-4xl md:text-5xl font-semibold mb-3 bg-linear-to-r from-sky-300 via-emerald-300 to-purple-400 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-5xl font-semibold mb-3 text-sky-400">
             Regex Tester
           </h1>
           <p className="text-sm md:text-base text-slate-300 max-w-xl mx-auto">

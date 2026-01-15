@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   title: 'DevSnips - Free Developer Tools (JSON, Regex, JWT)',
   description:
     'DevSnips is a free collection of developer utilities: JSON formatter with TypeScript types, regex tester, and JWT decoder. No signup, no ads, 100% client-side.',
-  metadataBase: new URL('https://devsnips.xyz'),
+  metadataBase: new URL('https://devsnips-x.vercel.app'),
   openGraph: {
     title: 'DevSnips - Free Developer Tools',
     description:
       'Format JSON, test regex and decode JWTs in your browser. Fast, privacy-friendly utilities for developers.',
-    url: 'https://devsnips.xyz',
+    url: 'https://devsnips-x.vercel.app',
     siteName: 'DevSnips',
     type: 'website',
   },

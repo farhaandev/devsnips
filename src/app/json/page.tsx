@@ -60,23 +60,10 @@ export default function JsonFormatter() {
 
     return (
         <div className="relative min-h-screen bg-linear-to-b from-slate-950 via-slate-900 to-slate-950 text-slate-50 py-12">
-            {/* background glows */}
-            <div className="pointer-events-none absolute inset-0">
-                <div className="mx-auto h-72 w-72 rounded-full bg-emerald-500/15 blur-3xl opacity-70 mt-10" />
-                <div className="absolute -left-24 bottom-10 h-64 w-64 rounded-full bg-sky-500/10 blur-3xl" />
-            </div>
-
             <div className="relative container mx-auto px-4 max-w-6xl">
                 {/* header */}
                 <div className="text-center mb-10">
-                    <div className="inline-flex items-center gap-2 bg-slate-900/70 border border-slate-800 px-4 py-1.5 rounded-full mb-5 backdrop-blur">
-                        <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-                        <span className="text-xs font-medium text-slate-300">
-                            DevSnips · JSON Snip
-                        </span>
-                    </div>
-
-                    <h1 className="text-4xl md:text-5xl font-semibold mb-3 bg-linear-to-r from-emerald-300 via-sky-400 to-purple-400 bg-clip-text text-transparent">
+                    <h1 className="text-4xl md:text-5xl font-semibold mb-3 text-emerald-400">
                         JSON Formatter & TS Types
                     </h1>
                     <p className="text-sm md:text-base text-slate-300 max-w-xl mx-auto">

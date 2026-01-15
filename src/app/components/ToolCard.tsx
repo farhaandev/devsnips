@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Tool } from '@/types/tools'
 
-export function ToolCard({ href, title, description, icon }: Tool) {
+export function ToolCard({ href, title, description }: Tool) {
     return (
         <Card
             className="group h-full border border-slate-800/70 bg-slate-900/60 
@@ -12,15 +12,6 @@ export function ToolCard({ href, title, description, icon }: Tool) {
                  transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_5px_10px_rgba(16,185,129,0.20)]"
         >
             <CardHeader className="pb-0 flex flex-row items-center gap-4 w-full">
-                {/* gradient icon chip */}
-                <div
-                    className="w-12 h-10 rounded-lg mb-0 flex items-center justify-center font-mono text-xs
-                     bg-linear-to-br from-emerald-400/30 via-sky-400/20 to-purple-500/30
-                     text-emerald-100 group-hover:scale-110 group-hover:from-emerald-400/50
-                     transition-transform duration-200"
-                >
-                    {icon}
-                </div>
                 <CardTitle className="font-semibold text-slate-100 group-hover:text-emerald-300 transition-colors">
                     {title}
                 </CardTitle>

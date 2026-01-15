@@ -57,20 +57,9 @@ export default function JwtSnip() {
 
   return (
     <div className="relative min-h-screen bg-linear-to-b from-slate-950 via-slate-900 to-slate-950 text-slate-50 py-12">
-      <div className="pointer-events-none absolute inset-0">
-        <div className="mx-auto h-72 w-72 rounded-full bg-purple-500/18 blur-3xl opacity-70 mt-10" />
-      </div>
-
       <div className="relative container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-10">
-          <div className="inline-flex items-center gap-2 bg-slate-900/70 border border-slate-800 px-4 py-1.5 rounded-full mb-5 backdrop-blur">
-            <span className="h-2 w-2 rounded-full bg-purple-400 animate-pulse" />
-            <span className="text-xs font-medium text-slate-300">
-              DevSnips · JWT Snip
-            </span>
-          </div>
-
-          <h1 className="text-4xl md:text-5xl font-semibold mb-3 bg-linear-to-r from-purple-300 via-sky-400 to-emerald-300 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-5xl font-semibold mb-3 text-purple-400">
             JWT Decoder
           </h1>
           <p className="text-sm md:text-base text-slate-300 max-w-xl mx-auto">
