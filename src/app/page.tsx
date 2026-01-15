@@ -67,7 +67,7 @@ export default function Home() {
 
         {/* TOOLS GRID */}
         <section className="relative max-w-7xl mx-auto px-4 pb-16">
-          <div className="flex items-center justify-between mb-6 px-2">
+          <div className="flex sm:flex-row flex-col items-center justify-between mb-6 px-2">
             <h2 className="font-medium text-slate-300 tracking-wide uppercase">
               Snips available now
             </h2>

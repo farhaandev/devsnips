@@ -58,7 +58,7 @@ export function Navbar() {
                 key={href}
                 href={href}
                 className={cn(
-                  'flex flex-col items-center justify-center gap-0.5 px-3 py-1 rounded-xl text-[10px] transition-colors',
+                  'flex flex-col items-center justify-center gap-0.5 px-3 py-1.5 rounded-md text-[10px] transition-colors',
                   active
                     ? 'text-emerald-300 bg-slate-900'
                     : 'text-slate-400 hover:text-emerald-300'
