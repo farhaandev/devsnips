@@ -21,6 +21,7 @@ export default function JsonFormatter() {
         output: '',
         loading: false,
     })
+    const [copiedType, setCopiedType] = useState<'json' | 'ts' | null>(null)
     const inputRef = useRef<HTMLTextAreaElement>(null)
 
     const handleFormat = useCallback(() => {
@@ -34,10 +35,12 @@ export default function JsonFormatter() {
         }
     }, [state.input])
 
-    const copyToClipboard = useCallback((text: string) => {
+    const copyToClipboard = useCallback((text: string, type: 'json' | 'ts') => {
         if (!text) return
         navigator.clipboard.writeText(text)
+        setCopiedType(type)
         toast.success('Copied to clipboard')
+        setTimeout(() => setCopiedType(null), 2000)
     }, [])
 
     const downloadJson = useCallback(() => {
@@ -140,12 +143,12 @@ export default function JsonFormatter() {
                                 <Button
                                     variant="ghost"
                                     size="sm"
-                                    onClick={() => copyToClipboard(state.output)}
+                                    onClick={() => copyToClipboard(state.output, 'json')}
                                     disabled={!state.output}
                                     className="h-7 px-2 text-[11px] text-slate-400 hover:text-emerald-300"
                                 >
                                     <Copy className="w-3 h-3 mr-1" />
-                                    Copy
+                                    {copiedType === 'json' ? 'Copied' : 'Copy'}
                                 </Button>
                             </div>
 
@@ -181,11 +184,11 @@ export default function JsonFormatter() {
                             <Button
                                 variant="ghost"
                                 size="sm"
-                                onClick={() => copyToClipboard(tsCode)}
+                                onClick={() => copyToClipboard(tsCode, 'ts')}
                                 className="h-7 px-2 text-[11px] text-slate-400 hover:text-emerald-300"
                             >
                                 <Copy className="w-3 h-3 mr-1" />
-                                Copy
+                                {copiedType === 'ts' ? 'Copied' : 'Copy'}
                             </Button>
                         </div>
                         <pre className="max-h-80 overflow-auto rounded-lg bg-slate-900/90 p-4 font-mono text-xs md:text-sm text-emerald-100">
