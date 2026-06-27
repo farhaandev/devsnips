@@ -38,10 +38,10 @@ DevSnips is a small collection of fast, ad‑free developer utilities – focuse
 
 ## 🔗 Live
 
-- App: https://devsnips.com
-- JSON Snip: https://devsnips.com/json
-- Regex Snip: https://devsnips.com/regex
-- JWT Snip: https://devsnips.com/jwt
+- App: https://devsnips-x.vercel.app
+- JSON Snip: https://devsnips-x.vercel.app/json
+- Regex Snip: https://devsnips-x.vercel.app/regex
+- JWT Snip: https://devsnips-x.vercel.app/jwt
 
 ## 🚧 Roadmap
 
