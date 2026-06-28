@@ -1,6 +1,6 @@
 # DevSnips
 
-DevSnips is a small collection of fast, ad‑free developer utilities – focused on everyday tasks around JSON, regex and JWT.
+DevSnips is a small collection of fast, ad-free developer utilities – focused on everyday tasks around JSON, regex, JWT, strings, cron, and hashing.
 
 > Built with Next.js, TypeScript and Tailwind CSS.
 

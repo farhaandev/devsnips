@@ -3,14 +3,14 @@ import './globals.css'
 import { Navbar } from './components/Navbar'
 
 export const metadata: Metadata = {
-  title: 'DevSnips - Free Developer Tools (JSON, Regex, JWT)',
+  title: 'DevSnips - Free Developer Tools (JSON, Regex, JWT, Cron & more)',
   description:
-    'DevSnips is a free collection of developer utilities: JSON formatter with TypeScript types, regex tester, and JWT decoder. No signup, no ads, 100% client-side.',
+    'DevSnips is a free collection of developer utilities: JSON formatter, Regex tester, JWT decoder, String encoder, Cron explainer, and Hash generator. No signup, no ads, 100% client-side.',
   metadataBase: new URL('https://devsnips-x.vercel.app'),
   openGraph: {
     title: 'DevSnips - Free Developer Tools',
     description:
-      'Format JSON, test regex and decode JWTs in your browser. Fast, privacy-friendly utilities for developers.',
+      'Format JSON, test regex, decode JWTs, schedule cron jobs, and generate hashes in your browser. Fast, privacy-friendly utilities for developers.',
     url: 'https://devsnips-x.vercel.app',
     siteName: 'DevSnips',
     type: 'website',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'DevSnips - Free Dev Tools',
     description:
-      'JSON formatter, regex tester and JWT decoder. No signup, no ads, 100% client-side.',
+      'JSON formatter, Regex tester, JWT decoder, Cron explainer, and Hash generator. No signup, no ads, 100% client-side.',
     creator: '@farhaanmalik',
   },
 }
