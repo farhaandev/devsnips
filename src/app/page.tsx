@@ -20,6 +20,21 @@ const tools = [
     title: 'JWT Snip',
     description: 'Decode JWT tokens safely in your browser.',
   },
+  {
+    href: '/string',
+    title: 'String Snip',
+    description: 'Base64, URL Encode/Decode, and HTML Entities.',
+  },
+  {
+    href: '/cron',
+    title: 'Cron Snip',
+    description: 'Parse cron expressions and see next execution dates.',
+  },
+  {
+    href: '/hash',
+    title: 'Hash Snip',
+    description: 'Generate MD5, SHA hashes, and UUIDs instantly.',
+  },
 ]
 
 export default function Home() {

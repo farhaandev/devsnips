@@ -3,13 +3,16 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
-import { Home, Braces, Regex, Shield } from 'lucide-react'
+import { Home, Braces, Regex, Shield, Type, Clock, Hash } from 'lucide-react'
 
 const links = [
   { href: '/', label: 'Home', icon: Home },
   { href: '/json', label: 'JSON', icon: Braces },
   { href: '/regex', label: 'Regex', icon: Regex },
   { href: '/jwt', label: 'JWT', icon: Shield },
+  { href: '/string', label: 'String', icon: Type },
+  { href: '/cron', label: 'Cron', icon: Clock },
+  { href: '/hash', label: 'Hash', icon: Hash },
 ]
 
 export function Navbar() {

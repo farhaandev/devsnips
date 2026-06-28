@@ -28,6 +28,23 @@ DevSnips is a small collection of fast, ad‑free developer utilities – focuse
 - One‑click copy for header and payload JSON.
 - Clear warning to only use non‑secret / dev tokens.
 
+### String Snip – Encoder & Decoder
+
+- Base64 encode and decode instantly.
+- URL encode and decode for query parameters.
+- HTML entities escape and unescape.
+
+### Cron Snip – Cron Expression Builder
+
+- Translate cron expressions into human-readable text.
+- View the next 5 execution dates based on your local timezone.
+- Quick preset buttons for common schedules.
+
+### Hash Snip – Generator
+
+- Generate MD5, SHA-1, SHA-256, and SHA-512 hashes instantly.
+- Quick single-click UUID v4 generator.
+- All cryptography runs locally in your browser.
 ## 🧱 Tech Stack
 
 - Next.js (App Router)
@@ -42,6 +59,9 @@ DevSnips is a small collection of fast, ad‑free developer utilities – focuse
 - JSON Snip: https://devsnips-x.vercel.app/json
 - Regex Snip: https://devsnips-x.vercel.app/regex
 - JWT Snip: https://devsnips-x.vercel.app/jwt
+- String Snip: https://devsnips-x.vercel.app/string
+- Cron Snip: https://devsnips-x.vercel.app/cron
+- Hash Snip: https://devsnips-x.vercel.app/hash
 
 ## 🚧 Roadmap
 
@@ -56,7 +76,3 @@ Planned next:
 
 Right now this is a small personal project.  
 Bug reports, ideas and feedback are welcome via issues or X: [@farhaanmalik](https://x.com/0xfarhaanmalik).
-
-## 📄 License
-
-MIT
